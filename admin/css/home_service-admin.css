@@ -1,0 +1,107 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .mk_form_control {
+     display: block;
+     width: 100%;
+     padding: .375rem .75rem;
+     font-size: 1rem;
+     line-height: 1.5;
+     color: #495057;
+     background-color: #fff;
+     background-clip: padding-box;
+     border: 1px solid #ced4da;
+     border-radius: .25rem;
+     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+ }
+ .mk_success{
+    font-size: 15px;
+    color: green;
+    background: #02870229;
+    padding: 5px 25px;
+    display: inline-block;
+    padding-right: 150px;
+    border-left: 4px solid green;
+    margin-top: 20px;
+}
+ .mk_warning{
+    font-size: 15px;
+    color: red;
+    background: #ff000024;
+    padding: 5px 25px;
+    display: inline-block;
+    padding-right: 150px;
+    border-left: 4px solid red;
+    margin-top: 20px;
+ }
+
+
+ .mk_customer_booking_details{
+        background: #fff;
+        border:2px solid #ddd;
+        padding:15px;
+        border-radius: 12px;
+        
+    }
+    .mk_customer_booking_content{
+        display: flex;
+    }
+    .mk_customer_booking_status{
+        flex: 1;
+            padding: 0px 12px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 15px;
+            background: #fbfbfb
+    }
+    .mk_customer_booking_details_content{
+        flex: 1;
+            padding: 0px 12px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 15px;
+            background: #fbfbfb
+    }
+
+
+    
+
+.mk_home_service_dashboard{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mk_home_service_dashboard_info_box{
+        width: 300px;
+        display: flex;
+        background: #fff;
+        border:2px solid purple;
+        padding: 15px;
+        margin: 15px;
+        border-radius: 12px;
+        align-items: center;
+    }
+    .mk_info_box_icon{
+        width: 100px;
+    }
+    .mk_info_box_icon span{
+        color: purple;
+        font-size: 70px;
+        display: block;
+        width: 70px;
+        height: 70px;
+    }
+    .mk_info_box_content{
+        width: 200px;
+    }
+     .mk_info_box_content h1{
+        color: purple;
+            font-size: 40px;
+            font-weight: bold;
+     }
+    .mk_info_box_content p{
+        color:#000;
+        font-size: 16px;
+        margin: 0px;
+    }

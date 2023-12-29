@@ -1,0 +1,138 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .mk_home_service_section{
+ 	background: #f4f4f4;
+ 	padding:100px 0px;
+ }
+ .mk_container{
+ 	width: 1170px;
+ 	margin:0px auto;
+ }
+ .mk_home_service_title{}
+ .mk_home_service_title h2{
+ 	color: purple;
+     text-align: center;
+     font-size: 45px;
+ }
+
+ .mk_home_service_content{
+ 	display: flex;
+     flex-wrap: wrap;
+     align-items: stretch;
+     justify-content: center;
+ }
+
+ .single_mk_home_service {
+     width: 23%;
+     background: #fff;
+     padding: 10px;
+     margin: 10px;
+     box-shadow: 0px 0px 10px #80008061;
+     border: 2px solid purple;
+     border-radius: 12px;
+ }
+ 
+ .single_mk_home_service img{
+ 	width: 100%;
+ 	height: 170px;
+ }
+ .mk_home_service_text{
+ 	padding-bottom: 30px;
+     text-align: center;
+     padding-top: 15px;
+ }
+ .mk_home_service_text h2{
+ 	color: purple;
+ 	font-size: 22px;
+ 	margin-bottom: 0px;
+ }
+ .mk_home_service_price{
+ 	color: #000;
+     font-size: 25px;
+     margin-bottom: 0px;
+ }
+ .mk_home_service_price del{
+ 	margin-right: 10px;
+ }
+ .mk_home_service_text span{
+ 	display: block;
+ 	font-size: 16px;
+ 	color: #000;
+ }
+ .mk_booking_btn{
+ 	background: purple;
+     display: inline-block;
+     color: #fff;
+     font-size: 16px;
+     padding: 4px 25px;
+     border-radius: 8px;
+     margin-top: 8px;
+     border:2px solid purple;
+     cursor: pointer;
+ }
+ .mk_booking_btn:hover{
+ 	background: #fff;
+ 	color:purple;
+ }
+
+
+
+ .mk_form_control {
+     display: block;
+     width: 100%;
+     padding: .375rem .75rem;
+     font-size: 1rem;
+     line-height: 1.5;
+     color: #495057;
+     background-color: #fff;
+     background-clip: padding-box;
+     border: 1px solid #ced4da;
+     border-radius: .25rem;
+     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+ }
+ .mk_success{
+ 	font-size: 15px;
+    color: green;
+    background: #02870229;
+    padding: 5px 25px;
+    display: inline-block;
+    padding-right: 150px;
+    border-left: 4px solid green;
+    margin-top: 20px;
+}
+ .mk_warning{
+ 	font-size: 15px;
+    color: red;
+    background: #ff000024;
+    padding: 5px 25px;
+    display: inline-block;
+    padding-right: 150px;
+    border-left: 4px solid red;
+    margin-top: 20px;
+ }
+
+ .mk_single_service_content{
+	display: flex;
+	justify-content: space-between;
+}
+.mk_single_service_details_content{
+	flex: 1;
+	background: #fff;
+	padding: 10px;
+	margin: 10px;
+	box-shadow: 0px 0px 10px #80008061;
+	border: 2px solid purple;
+	border-radius: 12px;
+}
+.mk_single_service_booking_details{
+	flex: 1;
+	background: #fff;
+	padding: 10px;
+	margin: 10px;
+	box-shadow: 0px 0px 10px #80008061;
+	border: 2px solid purple;
+	border-radius: 12px;
+}
